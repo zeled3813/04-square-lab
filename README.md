@@ -1,4 +1,3 @@
-
 # Square Array
 
 ## Objectives
@@ -7,7 +6,7 @@
 
 ## Instructions
 
-You will build a method, `square_array`, that squares each element in an array of numbers and returns a new array of these squared numbers. Use an iterator and implement your own logic, *don't* use any built-in array methods other than `.each` (e.g. `.collect`, `.inject`).
+You will build a method, `square_array`, that squares each element in an array of numbers and returns a new array of these squared numbers. Use an iterator and implement your own logic, *don't* use any built-in array methods other than `.each` (such as `.collect`, `.inject`).
 
 A couple of questions that you can ask yourself are: 
 
@@ -27,9 +26,9 @@ numbers = [1,2,3]
 square_array(numbers)
 # => [1,4,9])
 
-new_numbers = [9,10,16,25]
+more_numbers = [9,10,16,25]
 
-square_array(new_numbers)
+square_array(more_numbers)
 # => [81,100,256,625]
 ```
 
